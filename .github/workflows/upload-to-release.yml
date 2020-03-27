@@ -3,6 +3,9 @@ name: Go Release
 on:
   release:
     types: [published]
+  watch:
+    types: [started]
+    
 
 jobs:
 
